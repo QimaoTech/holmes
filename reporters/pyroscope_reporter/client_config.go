@@ -24,7 +24,7 @@ import (
 )
 
 /*
-	Copied from pyroscope-io/client
+Copied from pyroscope-io/client
 */
 var (
 	ErrCloudTokenRequired = errors.New("Please provide an authentication token. You can find it here: https://pyroscope.io/cloud")
@@ -72,7 +72,7 @@ var (
 	}
 	goroutineSampleTypes = map[string]*SampleType{
 		"goroutine": {
-			DisplayName: "goroutines",
+			DisplayName: "goroutine",
 			Units:       "goroutines",
 			Aggregation: "average",
 		},
